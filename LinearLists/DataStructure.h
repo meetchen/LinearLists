@@ -8,5 +8,7 @@
 #define INCREMENT 10 //ÔöÁ¿
 #include <stdio.h>
 #include <stdlib.h>
+using namespace std;
 typedef int Status;
 typedef int ElemType;
+#pragma warning(disable:4996)

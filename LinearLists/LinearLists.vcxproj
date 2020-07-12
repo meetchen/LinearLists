@@ -142,6 +142,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Sqlist.cpp" />
+    <ClCompile Include="Joseph Circle.cpp" />
+    <ClCompile Include="KMP.cpp" />
     <ClCompile Include="LinkList.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -185,32 +185,32 @@ void MergeList_Sq_Second(Sqlist La, Sqlist Lb, Sqlist& Lc) {
 
 
 
-int main() {
-	Sqlist sq1,sq2;
-	InitList_sq(sq1);
-	InitList_sq(sq2);
-	Sqlist result;
-	InitList_sq(result);
-	for (int i=1,j = 1; i <= 10&&j<10; i++,j++)
-	{
-		if (i/3==1)
-		{
-			ListInsert_sq(sq1, i++, i);
-		}
-		ListInsert_sq(sq1, i, i);
-		ListInsert_sq(sq2, j, j);
-	}
-	ListPrintf_sq(sq1);
-	ListPrintf_sq(sq2);
-
-	//MergeList_Sq(sq1, sq2, result);
-	MergeList_Sq_Second(sq1, sq2, result);
-	ListPrintf_sq(result);
-	//ElemType a=0;
-	//ListDelete_sq(sq1, 20, a);
-	//ListPrintf_sq(sq1);
-	//printf("\n\n已删除元素，其值为：%d", a);
-	//printf("\n顺序表当前元素个数：%d\t", sq1.length);
-	//printf("\n顺序表当前最大容量：%d", sq1.listsize);
-	return OK;
-}
+//int main() {
+//	Sqlist sq1,sq2;
+//	InitList_sq(sq1);
+//	InitList_sq(sq2);
+//	Sqlist result;
+//	InitList_sq(result);
+//	for (int i=1,j = 1; i <= 10&&j<10; i++,j++)
+//	{
+//		if (i/3==1)
+//		{
+//			ListInsert_sq(sq1, i++, i);
+//		}
+//		ListInsert_sq(sq1, i, i);
+//		ListInsert_sq(sq2, j, j);
+//	}
+//	ListPrintf_sq(sq1);
+//	ListPrintf_sq(sq2);
+//
+//	//MergeList_Sq(sq1, sq2, result);
+//	MergeList_Sq_Second(sq1, sq2, result);
+//	ListPrintf_sq(result);
+//	//ElemType a=0;
+//	//ListDelete_sq(sq1, 20, a);
+//	//ListPrintf_sq(sq1);
+//	//printf("\n\n已删除元素，其值为：%d", a);
+//	//printf("\n顺序表当前元素个数：%d\t", sq1.length);
+//	//printf("\n顺序表当前最大容量：%d", sq1.listsize);
+//	return OK;
+//}

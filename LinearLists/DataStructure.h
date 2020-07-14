@@ -8,6 +8,7 @@
 #define INCREMENT 10 //ÔöÁ¿
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 using namespace std;
 typedef int Status;
 typedef int ElemType;
